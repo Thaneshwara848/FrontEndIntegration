@@ -1,0 +1,19 @@
+<table class="table table-bordered">
+    <tr >
+        <th>Prodcut ID </th>
+
+        <th>Prodcut Name  </th>
+
+        <th>Prodcut Price  </th>
+        <th>Prodcut Description </th>
+    </tr>
+
+    <tr *ngFor="let myprod of product">
+         <th> {{myprod.id}} </th>
+
+        <th> {{myprod.name}} </th>
+
+        <th> {{myprod.price}} </th>
+        <th> {{myprod.desc}} </th>
+    </tr>
+</table>
